@@ -3,7 +3,6 @@ package com.srikanth.ipldashboard.data;
 import java.time.LocalDate;
 
 import com.srikanth.ipldashboard.model.Match;
-
 import org.springframework.batch.item.ItemProcessor;
 
 public class MatchDataProcessor implements ItemProcessor<MatchInput, Match> {
